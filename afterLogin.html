@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="bg-color" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="index entry">
+        <div class="van-nav-bar__placeholder myNavBar" style="height: 60px;">
+            <div class="van-nav-bar van-nav-bar--fixed van-hairline--bottom">
+                <div class="van-nav-bar__content">
+                    <div class="van-nav-bar__left van-haptics-feedback">
+                        <div class="van-image logo"
+                            style="width: 3rem; height: 3rem; margin-left: 0.5rem; margin-top: -0.1rem;"><img
+                                src="assets/images/logo.0e82ef46.png" class="van-image__img"><!----><!----></div>
+                    </div>
+                    <div class="van-nav-bar__title van-ellipsis">
+                        <div><span>MPG</span></div>
+                    </div>
+                    <div class="van-nav-bar__right van-haptics-feedback"></div>
+                </div>
+            </div>
+        </div>
+        <div class="language"><span class="language_box" style="font-size: 1.2rem; color: rgb(255, 255, 255);"><i
+                    class="van-badge__wrapper van-icon" style="margin-right: 0.4rem;"><!----><img
+                        class="van-icon__image"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAACIZJREFUeF7lW2nMJUUVPScxYlRARURGRZEtaBBBosiisijIjigJyA+QTWFEMQEJCGIgSoAAZhCQJWhYNGziBgxEISzCMOyZwYQlAq4oYhAkwJ9jzpvqob76eqnq7vdBMjd5+ZZ3762q07eq7tbElEnSuwDsBWB9AO8EsHr4Wf3uGfwLwDPhU/3+CICrSf5zmlPkNJRLej+AzwH4AoAdB45xA4BrANxI8smBumaJjwqApIMA7AFg57EnGvT9FsC1JC8cS/8oAEjyk/46gM+MNbEOPbcAWEDSljGIBgEgyQv2wg3AEHoUwPX+kLxB0gkANgfw+Q6lBsBAGJBe1AsASe8F8F0ANvmx6QCSP6mUSjIIuwLYF8CqDYN5S3yP5F9KJ1MMgKQvATg5nOql4+XwLwWwBcn/xsyS1gogGIiNahT51vgOyStzBql4igCQdAaAI0sG6Mnrp3lik6ykYwD4U2cRZ5L8Vu642QBI+gOAT+YqHsjXCoB1S7IVGARbREp3ktwiZw5ZAEhSjrKBPK8A+AGAP5O8KFeXpK8COLeOn2Tn+joZJF3WgHLuHHP5niW5Wi5zcj74ad9RI3s5yS+36WwFQJKFL+0zqR4yT5G0B9mLJL0VwH8AvCFRsB9JP8RaagRA0icA3NVrNv2EHib54X6iy6QkvQOAb4PUkjYnuah2m9T9Myi6DoBBmCtaTPLjQweT9CEAvwbwwUiXF78TyWdT/bUWIOmCKTk5beuzj7/nUACCJWwM4PcAbBEVXUjy4E4Agnt78xgTKdSxCckHCmUa2SUdBuBHCcM2qds8ywIkXT2Cb1+yDscA55D8TYlQDq8kH+DxLXANSecmltMMAEJUZwDmgs4G8EOSj01rMElrO48AYN1ojL3iKDIFwKY/FyHt4yTjSU0LA98MDqZ8oFd0C8ltqj+WAxCSGT785or2TgMXSbcB8FNbBYCDoj1J/mPohCQ9lARQB1dJlRgAp552GDpYofydwUQd6TnE/mwk7zj/iEJ9y9klORW3PYCP+YwBcEWkayHJSapuAoAkm6OTEq8Xepnkm4ZMRtKfAHwg0vE0gDWiv9fz+VMBcBSAU4cMOLLssSQdGPUiSfsDuLhD+GiSp1UA3Apg616jjS+0hGRdwiN7pLYIMVJyG8lPUdKaAP6WrX36jPuT/OmQYSTtBMAZ5C6aZwAOB+A7uYkcmx/YpWmk70dxhyUtDHWJrmnNNwBnAvhmxOk789MA3hKuIntSru4cOwc+wpYknXnqTZLsWK2TqeAsA3AJgP0iAYNxOQCHpveQfMHfSXobgKcArJypvJTtCZL2AXqRpDcD+F+h8KUGIL3/9yX5szpFkvp6ir7PXw53su9lfx5PntQMD61kIaEU5+gvDoFzVCw0APeECVUC25P83YgAXEly71SfJIe+cWWnlwVIWgmAt82mOStOeO41AE8AiFNRG5FcMgIA9rddEX6kqXIjaQGA+dVYOUnMGiCdGe7rMzxpALxvvH8qWqOpJF24BXYg6UiskSS9LyQz/fOvJO0OF5Gk+wBsUiT0KvOLswBoewqFAOxB8pddE5NkC7Al3E2yOAVX8wC7hoy/nwCQboF1SfqAmkWSXK1xTTCH9iH58xzGoBdt1aAmPTU+f86QFc9kC6SHYKPpFqbLvkKyyx9fPll7pCT/XjJ78w7MYE0OwfQa/BrJ81oQt1nvljHR+STTnFyGWBlLZuDTpHRyDaaO0OkkHR3WUuj5cWjZRUeRPL2LaYzvJZ0F4Bs9dE0codQV/gXJ1oaHsBVcbZnXMugJJE8KZup+Iefrl5K8qcdEO0Uk2Xvdp5NxJsPEFU6DoadJvrtLUXA9NwCwe8PB6MPVH9ft3hjpWwzgRJJxnq5ruM7vw3yuTbJKXXKTYKguHN6a5O1d0tX3QcePQydHrlhnCTxXUTQP+xM+o3L9gnlNCZHWc6BuYpJ2CSWpknm7t8dnhW+iUUiS84pNDtjzUTC3LCES9miaEuuVtpb0q0Ir8PA+UA8bo+MrsoQZLnb4v+Ob7SKUZ6TE6pKiO5J0YiGbQmHS5nc/ADcsuVUl13E6kqRP88EUXGyH7hU5VnA3m0voFb2aFA1WkPoDtcXEktmlwU6GrD3Hk0g+nMHbyhLcdpu8zyYneOKrfWZaPADglre0MLItyd6FUknei3GuP2ddi0i6R3AUkuQcQerazy6MBBDShMegHJ0km6FP5lKa0StYKhzzS7JXe2j0v/rSWADADlBaHJ1VwsqdkKTnQpkrVyTms/k+COD4vp2gkrYEkF7nzcXRAEJaHr+dZK+awcBAJQZjbZJ2qopIkpsmvxgJtZfHAwCuDqf7/jiS3y8afVmk9p5Qmf1IqWzCP6uxoUufpG8DOKVLT0mLzCEki6vH4Wp0EdQV3z50t4ucJL0lskjSIeH0j/nzWmSCFbi3pq5J6qMkvS+LKIDgcncfakzS1imTZJNP+4XLmqQCCHVtckOaGX2OuAZZQkeQtFeXRZKciHWrTZzjtGxZm1w1WkOjZO97WtKGAQS/L9RFten0JiFJPmdstT53YurXKBmBUNcq+5Ibp/t0dUny4h22+opqI7fM++zoJElumHYLf1pZGtYqG4HQ1Czd23+X5EpRnCeIF3ozyW27Vh7KdV64cxqzKKfO0NksHYHQ1C7vp3kyyXu7Jhx/L8ldm29vkLHz44U1UiiBm6cu9h+3XT4Coe2FifMBnJ8LRIebvBXJuu7vyVQkeeHHNaAznRcmIhC6XpnJAkKSIz4filmmK8kNXH4dz21vdS12039lJgIh56Wpq1ztsS9ed5hJcm5ws5r1+84+xv6/JFeRXbp3tqmtr3DuXppK9nHua3P/DhVcF13dqeW9709bU+YfmywkmsNr89pc+tRW2Bcna4BYMV+drQFixXx5uu5Ef72/Pv9/qi5bXN+PDEYAAAAASUVORK5CYII="><!----></i>English<i
+                    class="van-badge__wrapper van-icon van-icon-arrow-down"
+                    style="vertical-align: middle;"><!----><!----><!----></i></span></div><!----><!---->
+        <div class="index_wrap">
+            <div class="index_swipe" style="margin-bottom: -0.5rem;">
+                <div class="van-swipe" style="height: 15rem;">
+                    <div class="van-swipe__track"
+                        style="transition-duration: 500ms; transform: translateX(-2356px); width: 3534px;">
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/06/11/666814c61f165.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/06/11/666814e591c6a.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/06/11/66681555411e9.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/06/11/66681559be40d.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/06/11/6668155d46a45.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/06/11/666815611f6dc.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                    </div>
+                    <div class="van-swipe__indicators"><i class="van-swipe__indicator" style=""></i><i
+                            class="van-swipe__indicator" style=""></i><i class="van-swipe__indicator" style=""></i><i
+                            class="van-swipe__indicator" style=""></i><i
+                            class="van-swipe__indicator van-swipe__indicator--active"
+                            style="background-color: rgb(255, 255, 255);"></i><i class="van-swipe__indicator"
+                            style=""></i></div>
+                </div>
+            </div><!---->
+            <div class="index_menu" style="padding-top: 0.1rem; padding-bottom: 0px;"><a href="reedemBonus.html">
+                    <div class="van-image icon"><img
+                            src="data:image/png;base64,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"
+                            class="van-image__img"><!----><!----></div>
+                    <p>Redeem bonus</p>
+                </a>
+                <a href="myProduct.html">
+                    <div class="van-image icon"><img
+                            src="data:image/png;base64,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"
+                            class="van-image__img"><!----><!----></div>
+                    <p>My product</p>
+                </a>
+                <a href="myTeam.html">
+                    <div class="van-image icon"><img src="assets/images/indexMenu3.611a46d0.png"
+                            class="van-image__img"><!----><!----></div>
+                    <p>My teams</p>
+                </a><a href="invitation.html">
+                    <div class="van-image icon"><img src="assets/images/indexMenu2.f5b66616.png"
+                            class="van-image__img"><!----><!----></div>
+                    <p>Invitation</p>
+                </a>
+                <a href="missionRewards.html">
+                    <div class="van-image icon"><img
+                            src="data:image/png;base64,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"
+                            class="van-image__img"><!----><!----></div>
+                    <p>Mission rewards</p>
+                </a><a href="javascript:;">
+                    <div class="van-image icon"><img src="assets/images/indexMenu8.a1504423.png"
+                            class="van-image__img"><!----><!----></div>
+                    <p>App Download</p>
+                </a>
+            </div>
+            <div style="width: 94%; margin: 0px auto; padding-bottom: 0rem;">
+                <div class="van-image" style="width: 100%; margin-bottom: 0.2rem;"><img
+                        src="assets/images/agree.f8287399.gif" class="van-image__img"><!----><!----></div>
+                <div class="van-image" style="width: 100%; margin-bottom: 0.2rem;"><img
+                        src="assets/images/salary2.71fb9300.gif" class="van-image__img"><!----><!----></div>
+                <div class="van-image" style="width: 100%; margin-bottom: 0rem;"><img
+                        src="assets/images/salary.a4ded517.gif" class="van-image__img"><!----><!----></div>
+            </div><!---->
+            <div class="index_swipe" style="margin-bottom: 0.2rem;">
+                <div class="van-swipe" style="height: 15rem;">
+                    <div class="van-swipe__track"
+                        style="transition-duration: 500ms; transform: translateX(-589px); width: 5301px;">
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f6d0a0ee.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f74cfd1a.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f78bb222.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f7c343fa.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f7fb38f7.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f837a67e.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f888f629.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f8d82912.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                        <div class="van-swipe-item" style="width: 589px;"><img
+                                src="https://www.mpgindia.xyz/uploads/2024/07/19/669a4f9137c99.jpg"
+                                style="width: 100%; height: 100%;"></div>
+                    </div>
+                    <div class="van-swipe__indicators"><i class="van-swipe__indicator" style=""></i><i
+                            class="van-swipe__indicator van-swipe__indicator--active"
+                            style="background-color: rgb(255, 255, 255);"></i><i class="van-swipe__indicator"
+                            style=""></i><i class="van-swipe__indicator" style=""></i><i class="van-swipe__indicator"
+                            style=""></i><i class="van-swipe__indicator" style=""></i><i class="van-swipe__indicator"
+                            style=""></i><i class="van-swipe__indicator" style=""></i><i class="van-swipe__indicator"
+                            style=""></i></div>
+                </div>
+            </div><!---->
+            <div class="index_video" style="margin-bottom: 0.2rem;"><video
+                    src="https://www.mpgindia.xyz/public/video/v1.mp4?v=0.32"
+                    poster="https://www.mpgindia.xyz/public/video/v1.png?v=0.32" controls="" disablepictureinpicture=""
+                    controlslist="nodownload noplaybackrate"></video></div>
+            <div class="index_video" style="margin-bottom: 0.2rem;"><video
+                    src="https://www.mpgindia.xyz/public/video/v2.mp4?v=0.32"
+                    poster="https://www.mpgindia.xyz/public/video/v2.png?v=0.32" controls="" disablepictureinpicture=""
+                    controlslist="nodownload noplaybackrate"></video></div><!---->
+            <div class="index_news">
+                <div class="titbox">
+                    <p class="tit">Hot product</p><a href="javascript:;" class="more">More<i
+                            class="van-badge__wrapper van-icon van-icon-arrow"
+                            style="color: rgb(153, 153, 153);"><!----><!----><!----></i></a>
+                </div>
+                <div class="list">
+                    <div role="feed" class="van-list myListBox" aria-busy="false">
+                        <ul class="ProList">
+                            <li>
+                                <div class="detail">
+                                    <div>
+                                        <div class="pic">
+                                            <div class="van-image pic_img"><img
+                                                    src="https://www.mpgindia.xyz/uploads/2024/03/04/65e57b2a0b7ee.jpg"
+                                                    class="van-image__img"><!----><!----></div><span
+                                                class="tag_hot">Hot</span>
+                                        </div>
+                                        <div class="con">
+                                            <p class="name" style="color: black;">M-630 Broiler</p>
+                                            <div class="point"><span>Price: </span><span class="point_new">630RS</span>
+                                            </div>
+                                            <div class="items"><!---->
+                                                <p>Term：<span>42 days</span></p>
+                                                <p>Daily income：<span>27.09RS</span></p>
+                                                <p>Total earnings：<span>1137.78RS</span></p>
+                                                <div class="van-progress" style="height: 8px;"><span
+                                                        class="van-progress__portion"
+                                                        style="width: 46.71%; background: red;"></span><span
+                                                        class="van-progress__pivot"
+                                                        style="color: rgb(255, 255, 255); left: 46.71%; transform: translate(-46.71%, -50%); background: red;">46.71%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="m630Plan.html">
+                                        <div><!----><button type="button"
+                                                class="van-button van-button--default van-button--normal buyBtn">
+                                                <div class="van-button__content"><!----><span
+                                                        class="van-button__text">Buy
+                                                        now</span><!----></div>
+                                            </button>
+                                            <div role="timer" class="van-count-down"><!----></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="detail">
+                                    <div>
+                                        <div class="pic">
+                                            <div class="van-image pic_img"><img
+                                                    src="https://www.mpgindia.xyz/uploads/2024/03/04/65e5963a29af5.jpeg"
+                                                    class="van-image__img"><!----><!----></div><span
+                                                class="tag_hot">Hot</span>
+                                        </div>
+                                        <div class="con">
+                                            <p class="name" style="color: black;">M-46800 Turkey</p>
+                                            <div class="point"><span>Price: </span><span
+                                                    class="point_new">46800RS</span></div>
+                                            <div class="items"><!---->
+                                                <p>Term：<span>46 days</span></p>
+                                                <p>Daily income：<span>2246.40RS</span></p>
+                                                <p>Total earnings：<span>103334.40RS</span></p>
+                                                <div class="van-progress" style="height: 8px;"><span
+                                                        class="van-progress__portion"
+                                                        style="width: 73.07%; background: red;"></span><span
+                                                        class="van-progress__pivot"
+                                                        style="color: rgb(255, 255, 255); left: 73.07%; transform: translate(-73.07%, -50%); background: red;">73.07%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="m630Plan.html">
+                                        <div><!----><button type="button"
+                                                class="van-button van-button--default van-button--normal buyBtn">
+                                                <div class="van-button__content"><!----><span
+                                                        class="van-button__text">Buy
+                                                        now</span><!----></div>
+                                            </button>
+                                            <div role="timer" class="van-count-down"><!----></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul><!---->
+                        <div class="van-list__finished-text">No more</div><!---->
+                        <div class="van-list__placeholder"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 3rem;"></div>
+        </div>
+        <div style="bottom: -81%;" role="tablist"
+            class="van-tabbar van-tabbar--fixed van-hairline--top-bottom van-safe-area-bottom myTabBox">
+            <div role="tab" class="van-tabbar-item van-tabbar-item--active" tabindex="0" aria-selected="true"
+                style="color: rgb(255, 255, 255); font-size: 1rem;">
+                <a href="afterLogin.html">
+                    <div class="van-badge__wrapper van-tabbar-item__icon">
+                        <div class="van-image" style="width: 2rem; height: 2rem;"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAALKADAAQAAAABAAAALAAAAAD8buejAAAB5ElEQVRYCe2WvUoDQRRGs1HEzkKwUCsLG+0ECwt9g4CIPoSIGPUVrCL4GDbWYiOCYmcR7SysgoUoWIkWSdZzJSObzUz2x51khBn4mOHeO3fOflkmWyr54R3wDvxfB8IwXEfnqIFe0SXaQSNOPRVAU+gCmUadxIIT0IDMoycTaST+znp1qNAArKC3CFTS8ouCzaFAc/AG+kwi1OTbxPYGCi0HopYGJkvomOLAKjgHlNFJFqqE2lPyY1agaTyOzhIA8qSv2DRRKDQNJ9EtsjUeaDxTCDSN5tCjLdJIX/mz+dtdTYNl9BJpanspd/VaLqfZWEEftgk1/eWu3soEzYZt1NQ0G1RI7upqKmgKdwdFleKcgzh018VNg0UK6siVr6sWLEtBENwr8LJadOZDZldgBUlY9mWhRtzhBolZlXRkfsbhX6Y4cBNIlxwWz1oAjyrz4q+Ea7DC2cUUB1YP4uzsgW3/NN5h73DMgaJfiRv6V9B0R7KWmJ2R4mOkX8kRyR4DJIYkl3sYnzZ3xzC8Zm8PrDpIckhqcg3VR2bjIdGiFOsaf59tU10nVzPls8SLAr5LcWiamsQ28Y+fMHGHpgAHu/poSn5C8j6Ycv3i0f5FOdzvvEJzHrhQOzXNvMMaU3zIO2DTgW+MWtqgxzLFLwAAAABJRU5ErkJggg=="
+                                class="van-image__img" style="object-fit: cover;"><!----><!----></div><!---->
+                    </div>
+                    <div class="van-tabbar-item__text"><span>Home</span></div>
+                </a>
+            </div>
+            <div role="tab" class="van-tabbar-item" tabindex="0" aria-selected="false"
+                style="color: rgb(238, 238, 238); font-size: 1rem;">
+                <a href="Products.html">
+                    <div class="van-badge__wrapper van-tabbar-item__icon">
+                        <div class="van-image" style="width: 2rem; height: 2rem;"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADZUlEQVRoQ+1Y2Y0aQRBdQHwbZ4AjMIhD4stLBAsRGDJYItglApYIdjcC4wg8/kLiEDgC4wg8/1x+D/dIw2j6mh5mtRItjRgxXdX1ql5VV3fu5p2P3Du3/+YK4K0jeI3ANQKOHngzCq1Wq9J2uy3v93u/1WptkuLIFACNPhwOo+PxWIHBfMJjgm/DZrO5joKZzWYVGVApgPl8fktFjUbDS+qdsBz15XK5b/ivpNIHcEOs+Uiwu92uks/n7/BfB9Fqx0VKCmC5XD5DsIen7QoCxt/D+JGFI0gpAj2BDUDFyUsBLBaL3xAoCwWJQUyn03KxWFzpPC8DB+BPiMKQ+YL3UtSZsQAYPnDub1gp+NkHP18svHiaCkf8wM+JjpHhw6AJo6zQ6eH7T8y7ozMBohqlkTEALgJFL/DGoFqt+iZA4hwh5DaFQgFq/usJR1uil/P69Xp9Ev2uotBRpgzRGJhEQyQuI3A2SItarTYI/kS+sTLd2xp/cqrMkwZeWQPIWAVEkbxreLMarK2g2UZWfQJZKQDU3h7o8mxCFXoUOfMareEA8IhvDxIdpMMrnq94OpI5Z0Dj5kgBCP6yepRNQITmbPC+BiV+wQEfFNQwUeshUm3VROVOLOOwycppzGHRQK70rQEI73MjG7P2QgF30MxHNNmtKITEklWhzICY7D2qKkT+RxuuzIwXC3Xjan/YiFSq0IVQ+TD+o063MokN9gKdfpfvEwDo6hQoAbAPRynkTqpsgXWLJPluwn/q1R5oRDfJKpRlPvjolT6Z9FxaAIH3RFvAXfPiQFT9fzSaWgDBnoCa7IujYPnClPLj2mYZDbUAKIhkzqyk2njfKAc4SSQzQVx6nJ0TTBYzigAVZdAXkaJd2/O3MYBQJFiRmAepDlvqBItbAQiEkBMdJPUXkdS3rkhMmjanJI4TFpdUD479Ps/Zp1sHk5ofZ4d1BMSFE+95uCc4UcnF81YUityS9VLYB5iwvIF7cqZfVIFoHUZi46KH2QcFv67rUd7DRtV3udANG6G6G1UdyJMA8SA01vX3toq1OSB6IN6MJak2PNx/xzOJu3W2NdY5iVk+WTpBr88halEvb842pB3f0Qr/wTzvUkYbUSgN72ShQ0uhLIxwWeMKwMV7acheI5CGF110XCPg4r00ZP8Bv5awQPgI3Z4AAAAASUVORK5CYII="
+                                class="van-image__img" style="object-fit: cover;"><!----><!----></div><!---->
+                    </div>
+                    <div class="van-tabbar-item__text"><span>Product</span></div>
+                </a>
+            </div>
+            <div role="tab" class="van-tabbar-item van-tabbar-item--active" tabindex="0" aria-selected="true"
+                style="color: rgb(255, 255, 255); font-size: 1rem;">
+                <a href="MpCoin.html">
+                    <div class="van-badge__wrapper van-tabbar-item__icon">
+                        <div class="van-image" style="width: 2rem; height: 2rem;"><img
+                                src="assets/images/logo.0e82ef46.png" class="van-image__img"
+                                style="object-fit: cover;"><!----><!----></div><!---->
+                    </div>
+                    <div class="van-tabbar-item__text"><span>MP coin</span></div>
+                </a>
+            </div>
+            <div role="tab" class="van-tabbar-item van-tabbar-item--active" tabindex="0" aria-selected="true"
+                style="color: rgb(255, 255, 255); font-size: 1rem;">
+                <a href="Gifts.html">
+                    <div class="van-badge__wrapper van-tabbar-item__icon">
+                        <div class="van-image" style="width: 2rem; height: 2rem;"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAmlJREFUWEftmTuIFEEQhr8/MBNBAwUDERGEQwTRQERBMBA0vrvEQBMfiaAihp6pwRkY+AjU5EC84CIDRVQEMVE4RBERAwPBSMRAw3JKZrzZud550H2B0pPtztZf39T+Vd3bK/6xS0N5zWwfMA1sBb4Cn4FZST+6tMzsGLAf2FJovAcWJd3qiqvfHwRsZjPApVLgTQG6BtgMvAMuS5ofl9zM7gAO/BP4AGwANgKPJB3qC90b2MwmgJcl5G5Jrz2JmZ0qkl8vE06FoIvY+8VDTQILwAVJn8rY6v2TfSs9BHgWOAssgzIzh/Hkfo3cr8HOS5pqVtLMbgIngLWSvndVegjwWxeTtD0kGoLugi2r7DZxu+yUtJgaeJWkbS0+rVfa/eyvg5WtNGqWSg5cWeK0pBt9oUM2qMGuBh4Wjbd3JSzh0+BpORWCzVUD8cpOtsE2mq5VL2asjW2uLu8Fmq2aEFeLGX6ub3zvpqtV78DIE0vP+iYLaWhg/FhgMxsBGwrlIJEaXyR9bOZdBmxmO0qvrhsKWfu8r3ozZuaej3nwx74NkPSt0g4BvwJ2RcB6aCpg1zoqaa4N2CJhUwP/efgM3PhWUloiVzhk+Vzh3HS56ZYq8P9NiZi1/29dEmx+RrTGNl2CZXlFJUKbHz8Y8Z8uMdddSefN7AGwJ0YImCt2a2faxpoDb4pM4idBFfDhSK1rGThQwVzh7OGGLbIlsiWyJZYqkBeO0Mqbp0TblHhRHjDH7FlSVviipCttwP4/2vMY2vJ/uxS7tSeSDtZZgsetZrYeOBIBLUm3zex4hMYvSfea8YMPtCMAkoT+BsXTyDygg8sTAAAAAElFTkSuQmCC"
+                                class="van-image__img" style="object-fit: cover;"><!----><!----></div><!---->
+                    </div>
+                    <div class="van-tabbar-item__text"><span>Gift</span></div>
+                </a>
+            </div>
+            <div role="tab" class="van-tabbar-item van-tabbar-item--active" tabindex="0" aria-selected="true"
+                style="color: rgb(255, 255, 255); font-size: 1rem;">
+                <a href="life.html">
+                    <div class="van-badge__wrapper van-tabbar-item__icon">
+                        <div class="van-image" style="width: 2rem; height: 2rem;"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAALKADAAQAAAABAAAALAAAAAD8buejAAAEWUlEQVRYCe2ZWahNURjHHVdC5nnI9KKEouTFLMUDJSWJN3ORsatQPJLIkwcJRYbw4MmDUKSUBw+GyFTIlHke7/X7H3tfy7L2Wmvvc3jQ/ep399rf+r5v/c8+a+217r1NmjRa4xOo7hOor68fBcfgNryFryCrg8/wHG5BC+hf3dEjqzFwG9gD7yHW2hJ4HZSzHzpHDlc8jEFKsBDWwwPIYxJ8ykj4Tnsf1BRX5Mmk8Dh4CTJ97TPhmm4iTYIl0LY3OMZ5hs7fRcFa0Jw0TeKHw3nT6WlL8OaMftVenV+ZI4NCWzMGkfsmdIfjugmYBC8LxGxxSIh3UXxlYAB1n4HmsBN8JsEzfAFJ35p4hUYkyePBngZZ4+1SKp0bswLwS/BIT3/apfXRx5ASbpJQA1oMeWxVIlpvEdcHleD+kQWvEtc0rDSJINi1mkNj6TU1JRE9jfY3K0GCtXmE7AMBqrUgSjCB2hT0tRQxbQpDEtGjaX8xirRN/B8Nn918h+Ne4nzBtUdQNEHLk4QiF02F+9A1ETeItp6YLBX8+OftHz8l9ojlPWwLLtkOEj7gawnf4CO8hufwGJ7AmwBP6X9UKpXquGohagFdht74tC6u0R4Ipr3nZi1sB1PTJ3KkxW0U6wmuBYO7bK/4eQ52wGIYBe3d1X55iekEzeThehZM0zSaBHdNp9Eur4tf1YwWQYuMwJim5mitUSLYJN782iV2DPje4Uczi5J4B/LYZYJbZRZ0dBC/PRlAc1tiJyf3WZe7Zpny12Q4OhjtUPMWAeOZY5rzeewewZ9hMmhuXwGfdcvs5CPqwB1jjwjql1nI00FeXxijEK46F4dMi99tZNaFsunXSh8K2YvBXf43L/nTIcrMRPMVok9cb3Y62l/wLYFZUMN0GOuICboYpgtBNyBmCtYxjvuQTyFtiVmmp38S0i13L+1eQXWOAPJOQKzpg7mNCr5tM92x0oEUO8xdKdtLzmywa6U1XddXZjX7RKTdLMvsHacFgeXtNivB9qNGr8ClYNeyQ8177ZwNZgs+3dAT1+iACAmItU8Eat63hgmwCS6Bb+3soN9tDK7DSh7bQrC2awn3biD094K5oJ1OObE2wK028VLFN4/tQS4mjg1cL0BnaDhb0JZIvQJ3QxHTochvVD2Yo3J63n2W5NzgqnPBYRgB2np1bCxqB/xq6aVyN8jzldliUvHy62S3DoqI1iu2Y1CwAgicD5WY/T7XX4lit/103P0usb/tdGkAGfK/hHapr0pXvQ2cY1r133LfkR3uj3OE/Vor5xGowtPA97opx+b8ESNWY051iQ2OxZOuTb+ff3T9qjGDwnwBFNj2j8TqrDLHpyW6j0IrQAX/lql2ZU/W/jQUnAj2L5DV+ACvKTLWHq8q9xRuBtpY7NcWrtymP5TMg5iFWJl+BtEWfADyHBMJL5u2/kPQozIVBbMZeDAshdtg/lOG2/Jf7B8mfTr0VPRrVUGJjWn/9xP4AZ4X6mOF/08yAAAAAElFTkSuQmCC"
+                                class="van-image__img" style="object-fit: cover;"><!----><!----></div><!---->
+                    </div>
+                    <div class="van-tabbar-item__text"><span>Life</span></div>
+                </a>
+            </div>
+            <div role="tab" class="van-tabbar-item van-tabbar-item--active" tabindex="0" aria-selected="true"
+                style="color: rgb(255, 255, 255); font-size: 1rem;">
+                <a href="myProfile.html">
+                    <div class="van-badge__wrapper van-tabbar-item__icon">
+                        <div class="van-image" style="width: 2rem; height: 2rem;"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAALKADAAQAAAABAAAALAAAAAD8buejAAAB30lEQVRYCe2Xv0oDQRCH71KoYGFjZROCDyBB30HiEwRfI7V2volYWlgIvoNBfAALmxSioIVoBI3fL1zg0N07mfuzObyBH7u525n5bjK53URRa20F2go0swKz2ayDhugCTdA0GfVZ1ztL82TA9NAYZZnu94JDCwI9ZJGm7mldOGiSqw3yKpvinU+1Pkx7kFi9abGhtTWKPumhMbHVLyoKvGcEtvpFsTHh3I1emDJZMcT4iON41eBXuMJPlqT4WP0KA18bga1+hYHPjMBWP2O6xI0ebtZ7WNxAN2enW3w/CXTejrccZ4kUdHNOawvodnRUoNBOp3j07zrDPjpA22grEUM0SXTHeImu2OFeGes3QPvoHL2hv5rWyqdfGzHJuugUfSGryVcxupWCk2CAnlFZpliDSqAJPEKfZZGm4ijmqFRoBUwlqGpaDjR0aoMqKvvzwZUjtz0yX2sE0I/iFm2U+pX5g71wa4dX371vSd5fpBMc64IVo3Ipp9e8Faa6eleOkXeNN2qxGzPcd6nyjStMVoWPcagbVozKeaSJy5xAVFfb7SNacznVcO2dHJuubdxXYZ0NQsGqHsothl/mA9ZBJrQ5GXzAOnWFNieDD1hHxNDmZGgccOgqtvnbCvy7CnwDabniEPobYvcAAAAASUVORK5CYII="
+                                class="van-image__img" style="object-fit: cover;"><!----><!----></div><!---->
+                    </div>
+                    <div class="van-tabbar-item__text"><span>Me</span></div>
+                </a>
+            </div>
+        </div>
+        <div class="ico_new" style="display: none;">
+            <div class="van-image"><img src="/mpg/assets/newIco.bf0753fe.png" class="van-image__img"><!----><!---->
+            </div><i class="van-badge__wrapper van-icon van-icon-clear"
+                style="color: rgb(102, 102, 102); font-size: 1.3rem;"><!----><!----><!----></i>
+        </div>
+        <div class="ico_hot" style="display: none;">
+            <div class="van-image"><img src="/mpg/assets/hotIco.fd9f11e6.png" class="van-image__img"><!----><!---->
+            </div><i class="van-badge__wrapper van-icon van-icon-clear"
+                style="color: rgb(102, 102, 102); font-size: 1.3rem;"><!----><!----><!----></i>
+        </div>
+        <div class="ico_hot" style="width: 4.2rem; bottom: 6rem;">
+            <div class="van-image"><img
+                    src="data:image/gif;base64,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"
+                    class="van-image__img"><!----><!----></div>
+        </div>
+        <div class="ico_hot" style="width: 4.2rem; bottom: 12rem;">
+            <div class="van-badge__wrapper">
+                <div class="van-image"><img
+                        src="data:image/gif;base64,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"
+                        class="van-image__img"><!----><!----></div>
+                <div class="van-badge van-badge--top-left van-badge--fixed">26</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

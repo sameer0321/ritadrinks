@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="bg-color" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="forget entry">
+        <div class="van-nav-bar__placeholder myNavBar" style="height: 60px;">
+            <div class="van-nav-bar van-nav-bar--fixed van-hairline--bottom">
+                <div class="van-nav-bar__content">
+                    <a href="index.html">
+                        <div class="van-nav-bar__left van-haptics-feedback">
+                            <div><i class="van-badge__wrapper van-icon van-icon-arrow-left"
+                                    style="font-size: 1.3rem; vertical-align: middle; top: 0px;"><!----><!----><!----></i><span
+                                    style="vertical-align: middle; position: relative; left: -2px;">Back</span></div>
+                        </div>
+                    </a>
+                    <div class="van-nav-bar__title van-ellipsis">
+                        <div>Retrieve password</div>
+                    </div>
+                    <div class="van-nav-bar__right van-haptics-feedback"></div>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="van-image"><img src="assets/images/logo.0e82ef46.png" class="van-image__img"><!----><!---->
+            </div>
+        </div>
+        <div class="formbox">
+            <div class="van-cell-group van-hairline--top-bottom">
+                <div class="van-cell van-field accountInput">
+                    <div class="van-field__left-icon"><i class="van-badge__wrapper van-icon"><!----><img
+                                class="van-icon__image"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAAXFJREFUaEPtmjFLw1AUhc+FdBNbQbBzB8HVqT/AQTqqoIMOTi4uLgVxFqGLi4uTgw4K6hgc/AFOroJD5gqCtnRr4Eq7VfPk3XIT8/BmfJycd/JxkuG+EBxXqzG/CEQnAK8ANOvS5bPOfYAegfQwTt5fs/agrMVxaI6eQJjLJ5inK+MDlDazwjuC1+8ArHna5y27j5Pu+vdNHMEXesXXw/X83I+Tt6pn8DrnjVHiHyfdH4BdVbHgErIurRHXoCjxMOISWhpaI65BUeJhxCW0NLRGXIOixMOIS2hpaI24BkWJhxGX0NLQGnENihIPIy6hpaE14hoUJR7exJm5VHMVIvIbCAUbvNWwEZykyk6td8f/JfGoUsHOQRurW9tjgg/XV7g87SAdDqemXwjx3fYRNvb2J0Lenp/honNc7uA3zy+YqdYmQg56n9hcXrLgIwLqg/1gqxLsyzl1kX+5sZCvyh8HD/e4MNQD2kCPxEc9LftPCF966P4vRzgwVgAAAABJRU5ErkJggg=="><!----></i>
+                    </div>
+                    <div class="van-cell__title van-field__label"><span
+                            style="font-size: 1.5rem; color: rgb(74, 34, 24);">+</span><input type="text"
+                            placeholder="Area code" readonly="" style="color: rgb(74, 34, 24); width: 2.2rem;"><span
+                            style="padding-left: 0.2rem;">|</span><!----></div>
+                    <div class="van-cell__value van-field__value">
+                        <div class="van-field__body"><input type="text" id="van-field-11-input"
+                                class="van-field__control" placeholder="Please enter mobile number"
+                                autocomplete="off"><!----><!----><!----></div><!----><!---->
+                    </div><!----><!---->
+                </div><!----><!---->
+                <div class="van-cell van-field">
+                    <div class="van-field__left-icon"><i class="van-badge__wrapper van-icon"><!----><img
+                                class="van-icon__image"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAABKFJREFUaEPtmWtsk1UYx//n7bqrhU062o2OrQW8LOgSdRpUDCqRMUAwuEkUmJcsEfGDojKyCgU2mqEE8DYSCKgwzTIc4cvWwRIDH7jEDE1U3MStLdvUdt0Vt66sl2PeSk3Zennft29nm3i+9rn8nn/POXnP8xDE6SLR4F6VLZM7E1OXAp4k6sKFM722TrHziAq+Yu7MDEhStJRgM4BkFpZSUACNjJtWNHVbjWIVIAp4ST4Sxxyz3wRltCC4MwjcTUrx6Th1VJ8zDw9HWkCk4KQoT/ECQ6AHIWouMJRigFC622q2HroCOLn4BLIRDF6sznwChPkQIA8LTH6NejwVBnPfaSH+vMGL1PK7GUj2gpBnAfD2nwxJKc4zjOudpq7+K3wK4Jz4mXmK2QmU6ChoOQGR8kkS1pZSD0C+opKJSkPnYG9Yey6KLVKpUtKlzi2EYCtAZnAJKtiGwg7Q/fZRz95zNttoqDihFCfFecoyMKgCoBIMI8iRWijFDoPJehSAh/PhfBCQKtSKUyBkpaC84jkZ0oyWNSeBickhAypelKfUMQx2ipdfeCQK7DYYLTpO4MVqpREEnO5l4UjcPCmF2WCyTGEJqHixWuEGIQy30FG2otTTbLJKuCmuUbLfFzGzmo2WKQIHVvx/8NB/GsMwyH/oEXR83waXK/hnS0wpniCVYutHh/DYshU4VlOFxiO1QauMGfDEpCRU1h5F4ZKnMToyjIoX18Lc8UtsgyenpmLH4S9RsOhxDA/04/2ydTC1Xw25p0RXXJO/EApVDi6dNXC6gdJkM7DrWB3ufaAQA1YLtBtK0dP1W1hf0cEPnm7BgvsK8In2PbTU14UEkGVkoPqLesxfeD+svT2o3FACS/f1sNCsgejgT615Hlv2fQy3ywXtxlL8/N3lgCAZ8kzsOdGA3Lvuwe9mI7TrS2D78w9O0FEBZ4O+um071pa/gZHBAbz93HKvmv5LnpUN/YmTmKPW4Pq1X70FDtn6OENHDZwwDHRHjntvCFNHO94tWQWHfcwLpszJhb6uAQrVXHRe/Qnby9bhxtAgL+iogbOBU++QYX9jE3LmL8ClVgP2bHoNczTzoD/egFnKLLT/0AbdKy9h7K8bvKGjCs4Gz8pV48CpZsjS09H6TT0Kn1yK9Fly/Hj5AnaVb4TDbhcEHXVwNkHBo4tR9fnXkCQkeCHbzn/rVX/ipkMw9LSAs0lWrn8Zr+/U4+KZZnzw1ia4nIJbJ/8WK/p1GExGuTIL/RYL24CLSGmf87SBi0LrF4Q7uFrhAiFTXh1iA3GKx+sFFK9vzrh95cdMX4WiJc1kWc25r3Jr78VfJ8v/0Ex375CCHhgf9dRE0ju87dBPR7fWxUxoz3YN3v55GeTq4dxm9vl7++NEUgOQ1Vy6veGuvKj3xycDLFNnLpYQZl/cTCQmFUCW5ylKyT8zIE04ddnfvTMgQqusRmvtfzID8of0Td0oZbQkxNQNFJ8R93h1U/fIEJciQ9nw3uOhgrFzTo8khR0Zbib+c06CRjg92ww9fV2RAvv8RQX3BV2SLZMn35osu1242NprC9+D4FlRVMB5Mggyj1vwvwGbVOU+UkbspwAAAABJRU5ErkJggg=="><!----></i>
+                    </div><!---->
+                    <div class="van-cell__value van-cell__value--alone van-field__value">
+                        <div class="van-field__body"><input type="text" id="van-field-12-input"
+                                class="van-field__control" placeholder="SMS verification code"><!----><!---->
+                            <div class="van-field__button"><button type="button"
+                                    class="van-button van-button--default van-button--normal send">
+                                    <div class="van-button__content"><!----><span
+                                            class="van-button__text"><span>Send</span></span><!----></div>
+                                </button></div>
+                        </div><!----><!---->
+                    </div><!----><!---->
+                </div>
+                <div class="van-cell van-field">
+                    <div class="van-field__left-icon"><i class="van-badge__wrapper van-icon"><!----><img
+                                class="van-icon__image"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAApFJREFUaEPtmL1rFEEYxp/3chEiniJ47mIR2D3wGyy0sBRRyG3jR9BGSxtRUMSI/gWKEVFQbCy1Ufxq5gKKWFpoIfgNtwspZNYTxJwYMJd7ZS74yV3YmZ2ELO7W7zzvb555ZmZ3CRl9KKPcsAa+Gegve+5uIt4Fpi1EvEqZwkwfQPyMmR40Inn/OTBlwywr4EOVlXsKTKMAVWaH4nqbeGSs/vFeWvi04IXAc8+BcBLorN5LgK9zix5OTk6PK7iBgb5BKvJOgA4B2KgWAYwLIpKnAbRNJ5AKPPDc8yCMAPgOxgkRyWuzwKhJHgbhIoBFYIyKSJ6ad/CZeBTuAJhi4mqtHj9OAlGtONuJqQagv03tYdPYGDmuNqLjO286mWYcFZG8mgT6Z03guUdAuAJwPQ7jdSYb1gh8yHP3FQi3VKZFKDcZZLUQ+O4Llfk2Y/9YJG/rTFzVGoFXfecGgQ4AfFyE8WXdpqo+8J1jAF1i8M1aGB/U1TAD99y3RFjDLWyojcvXuk1VfXXQXU9FvGLGu1ok1+pqGIEHvjMBUOlbc7r0pNH4qttU1W8rl5csLvU1AW6KMF6qq2EI7rJqJEJpNP7XJvXNdYwaByka/ulsGp0cXDejMydLHpVkvqVxKs94Mo//rlrQjgf+itVA8SzAOwDSviBMDPk9htUF9whonRHhp/fdtLoehx1oLj4FYXk6gJSjGZ9Bra3d4HuAu+o9e2/KtraG3xWhHP5XrAe482X+49FrnjwhwnhZQvCZi2GhPN3eiXpFJQe3sWq54zZc1NHIHddxy0Zt7rgNF3U0csd13LJRmztuw0UdjdxxHbds1P4Pjmf3QyKrn24Z/VhWGyqTvydsnARzrWH0m3muoZLo/wAmZk0+UFJhogAAAABJRU5ErkJggg=="><!----></i>
+                    </div><!---->
+                    <div class="van-cell__value van-cell__value--alone van-field__value">
+                        <div class="van-field__body"><input type="password" id="van-field-13-input"
+                                class="van-field__control"
+                                placeholder="Please enter the new password"><!----><!----><!----></div><!----><!---->
+                    </div><!----><!---->
+                </div>
+                <div class="van-cell van-field">
+                    <div class="van-field__left-icon"><i class="van-badge__wrapper van-icon"><!----><img
+                                class="van-icon__image"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAApFJREFUaEPtmL1rFEEYxp/3chEiniJ47mIR2D3wGyy0sBRRyG3jR9BGSxtRUMSI/gWKEVFQbCy1Ufxq5gKKWFpoIfgNtwspZNYTxJwYMJd7ZS74yV3YmZ2ELO7W7zzvb555ZmZ3CRl9KKPcsAa+Gegve+5uIt4Fpi1EvEqZwkwfQPyMmR40Inn/OTBlwywr4EOVlXsKTKMAVWaH4nqbeGSs/vFeWvi04IXAc8+BcBLorN5LgK9zix5OTk6PK7iBgb5BKvJOgA4B2KgWAYwLIpKnAbRNJ5AKPPDc8yCMAPgOxgkRyWuzwKhJHgbhIoBFYIyKSJ6ad/CZeBTuAJhi4mqtHj9OAlGtONuJqQagv03tYdPYGDmuNqLjO286mWYcFZG8mgT6Z03guUdAuAJwPQ7jdSYb1gh8yHP3FQi3VKZFKDcZZLUQ+O4Llfk2Y/9YJG/rTFzVGoFXfecGgQ4AfFyE8WXdpqo+8J1jAF1i8M1aGB/U1TAD99y3RFjDLWyojcvXuk1VfXXQXU9FvGLGu1ok1+pqGIEHvjMBUOlbc7r0pNH4qttU1W8rl5csLvU1AW6KMF6qq2EI7rJqJEJpNP7XJvXNdYwaByka/ulsGp0cXDejMydLHpVkvqVxKs94Mo//rlrQjgf+itVA8SzAOwDSviBMDPk9htUF9whonRHhp/fdtLoehx1oLj4FYXk6gJSjGZ9Bra3d4HuAu+o9e2/KtraG3xWhHP5XrAe482X+49FrnjwhwnhZQvCZi2GhPN3eiXpFJQe3sWq54zZc1NHIHddxy0Zt7rgNF3U0csd13LJRmztuw0UdjdxxHbds1P4Pjmf3QyKrn24Z/VhWGyqTvydsnARzrWH0m3muoZLo/wAmZk0+UFJhogAAAABJRU5ErkJggg=="><!----></i>
+                    </div><!---->
+                    <div class="van-cell__value van-cell__value--alone van-field__value">
+                        <div class="van-field__body"><input type="password" id="van-field-14-input"
+                                class="van-field__control" placeholder="Confirm new password"><!----><!----><!---->
+                        </div><!----><!---->
+                    </div><!----><!---->
+                </div><button type="button" class="van-button van-button--default van-button--normal btn">
+                    <div class="van-button__content"><!----><span class="van-button__text">Retrieve
+                            password</span><!----></div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
